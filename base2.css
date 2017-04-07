@@ -1,0 +1,356 @@
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img{margin:0;padding:0; font-family:"微软雅黑"；}
+fieldset,img,input,button{border:none;padding:0;margin:0;outline-style:none;}
+ul,ol{list-style:none;}
+input{padding-top:0;padding-buttom:0;font-family:"SimSun","宋体";}
+select,input{vertical-align:middle;}
+select,input,textarea{font-size:12px;margin:0;}
+textarea{resize:none;}
+img{border:0;vertical-align:middle;}
+table{border-collapse:collapse;}
+body{
+    font:12px/150% Arial,Verdana,"\5b8b\4f53";
+    color:#666;
+    background:#fff;
+}
+.clearfix:before, .clearfix:after{
+    content:"";
+    display:table;
+}
+.clearfix:after{clear:both;}
+.clearfix{
+    *zoom:1;
+}
+a{color:#666;text-decoration:none;}
+a:hover{color:#C81623;}
+h1,h2,h3,h4,h5,h6{
+    text-decoration:none;
+    font-weight:normal;
+}
+s,i,em{font-style:normal;text-decoration:none;}
+.red{color:#C81623!important;}
+.w{width:1210px;margin:0 auto;}
+.fl{float:left;}
+.fr{float:right;}
+.al{text-align:left;}
+.ac{text-align:center;}
+.ar{text-align:right;}
+.hide{display:none;}
+/*内容开始*/
+.shortcut{
+    width:100%;
+    height:32px;
+    line-height:32px;
+    background-color:#f1f1f1;
+}
+.dt,.ling,.shouji{
+    padding:0 20px 0 8px;
+    position:relative;
+}
+.dt i,.ling i,.shouji i{
+    font:400 15px/15px "宋体";
+    position:absolute;
+    top:13px;
+    right:2px;
+    height:7px;
+    overflow:hidden;
+    width:15px;
+}
+.dt s,.ling s,.shouji s{
+    position: absolute;
+    top: -8px;
+    left: 0;
+}
+.fr li{
+    display:inline-block;
+    float:left;
+}
+.line{
+    width:1px;
+    height:12px;
+    background-color:#ddd;
+    padding:0;
+    margin-top:10px;
+    margin-right:9px;
+    margin-left:9px;
+
+}
+.ling{
+    margin-left:-5px;
+    margin-right:-5px;
+}
+.fr .shouji{
+    padding:0 18px;
+}
+.tel{
+    position:absolute;
+    width:15px;
+    height:20px;
+    background:url(./images/xiaotu.png) no-repeat;
+    left:-2px;
+    top:6px;
+}
+.topbenner img{
+    width:100%;
+}
+.w img{
+    margin:20px 150px 20px auto;
+    float:left;
+}
+.sousuo{
+    width: 550px;
+    height:45px;
+    float:left;
+    margin:20px 0 -1px 0;
+}
+.sousuo input{
+    width:450px;
+    height:32px;
+    border:2px solid #C81522;
+    float:left;
+}
+button{
+    color:#fff;
+    background-color:#C81522;
+    width:80px;
+    height:36px;
+    float:left;
+    font:300 16px/16px "microsoft yahei";
+}
+.che{
+    width:90px;
+    height:17px;
+    float:right;
+    margin-right:80px;
+    margin-top:30px;
+    padding:13px 10px 13px 40px;
+    font:400 13px/13px "microsoft yahei";
+    border:1px solid #dfdfdf;
+    position:relative;
+}
+.che .icon1{
+    position:absolute;
+    left:12px;
+    top:13px;
+    width:20px;
+    height:17px;
+    background:url(./images/xiaotu.png) no-repeat -3px -59px;
+    margin-right:10px;
+
+}
+.che .icon2{
+    font:400 17px/13px "宋体";
+    margin-left:5px;
+}
+.che .icon3{
+    background-color:#c81522;
+    padding:0px 0px 0px 4px;
+    width:14px;
+    height:16px;
+    position:absolute;
+    right:16px;
+    top:-1px;
+    border-radius:7px 7px 7px 0;
+    color:#fff;
+}
+.hot{
+    width:400px;
+    font-size:12px;
+    height:30px;
+    float:left;
+}
+.daohanglan{
+    display:block;
+    float:left;
+    border-bottom:2px solid #c81522;
+    width:100%;
+}
+.daohanglan .dt{
+    display:block;
+    float:left;
+    width:200px;
+    background-color:#c81522;
+    height:30px;
+    line-height:40px;
+    padding:5px 10px ;
+    padding-top:12px;
+    text-align:center;
+    font:500 18px/18px "microsoft yahei" ;
+    color:#fff;
+    margin-left:80px;
+}
+.right{
+    float:left;
+}
+.menu{
+    float:left;
+    height:30px;
+    line-height:40px;
+    padding:5px 10px ;
+    padding-top:12px;
+    padding-left:20px;
+    text-align:center;
+    font:500 17px/18px "microsoft yahei" ;
+    color:#000;
+}
+.huadong .dd{
+    height:455px;
+    border:1px solid #c81623;
+    margin-top:18px;
+    width:218px;
+    float:left;
+    margin-left:-10px;
+}
+.huadong .item i{
+    background-color: #000;
+    width:25px;
+    height:25px;
+    background:url(./images/xiaotubiao.png) no-repeat -3px -2px;
+    position:absolute;
+    left:-28px;
+    top:0px;
+    position:absolute;
+    float:left;
+    
+}
+.huadong .item{
+    height:35px;
+    line-height:30px;
+    color:#000;
+    margin-left:30px;
+    font-size:13px;
+    position:relative;
+}
+.huadong{
+    float:left;
+    margin-left:90px;
+    margin-top:-18px;
+    margin-bottom:10px;
+    width:100%;
+    position:relative;
+}
+.huadong .center img{
+    floar:left;
+    margin-top:18px;
+    margin-left:0px;
+    width:990px;
+    height:457px;
+}
+.fudong{
+    position:absolute;
+    top:25px;
+    right:110px;
+
+}
+.fudong img{
+    height:440px;
+}
+.san{
+    margin-left:80px;
+
+}
+.san .sige{
+    float:left;
+}
+.chaozhigou p,.wu p{
+    height:25px;
+    line-height:25px;
+    font:400 20px/20px "microsoft yahei";
+    float:left;
+    margin-right:500px;
+
+}
+.chaozhigou p img,.wu p img{
+    margin-left:80px;
+}
+.chaozhigou p,.wu p{
+    margin-bottom:28px;
+}
+.chaozhigou .si1{
+    background-color:#E0F3FF;
+    width:400px;
+    height:200px;
+    margin-left:80px;
+    float:left;
+    margin-top:0px;
+    font-family:"microsoft yahei";
+    position:relative;
+
+
+}
+.chaozhigou .si1 h1{
+    position:absolute;
+    top:20px;
+    left:30px;
+    color:#0895DA;
+}
+.chaozhigou .si1 h2{
+    color:#0895DA;
+    font:400 20px/20px "microsoft yahei";
+    position:absolute;
+    top:50px;
+    left:30px;
+
+}
+.chaozhigou .si1 span{
+    position:absolute;
+    color:#fff;
+    background-color:#0895DA;
+    font-size:18px;
+    border-radius:0 70px 70px 0;
+    padding:8px 30px 8px 8px;
+    top:110px;
+    left:30px;
+}
+.chaozhigou .si1 img{
+    float:right;
+    margin-top:11px;
+}
+.chaozhigou .si2{
+    border:1px solid #ddd;
+    width:200px;
+    height:198px;
+    float:left;
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-right:-1px;
+    position:relative;
+}
+.chaozhigou .si2 i{
+    /*background: url(./images/xiaotu2.png) no-repeat -3px -2px ;*/
+    width:25px;
+    height:25px;
+
+
+}
+.chaozhigou .si2 h1{
+    font:600 20px/20px "microsoft yahei";
+    color:#F86863;
+    padding-left:40px;
+    padding-top:20px;
+}
+.chaozhigou .si2 h2{
+    font:300 16px/16px "microsoft yahei";
+    color:#000;
+    position:absolute;
+    top:45px;
+    left:12px;
+}
+.chaozhigou .si2 img{
+    position:absolute;
+    right:10px;
+    bottom:10px;
+}
+.wuge{
+    float:left;
+    margin-left:80px;
+
+}
+.wuge .hezi{
+    height:380px;
+    width:238px;
+    border:1px solid #ddd;
+    float:left;
+    margin-right:5px;
+}
+
+

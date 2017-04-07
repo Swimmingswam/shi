@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="zym">
+  <meta name="Keywords" content="jingdong">
+  <meta name="Description" content="shopping-online">
+  <title>JDshopping</title>
+  <link rel="stylesheet" type="text/css" href="./jingdong.css" />
+  <link rel="stylesheet" type="text/css" href="./base.css" />
+ </head>
+ <body>
+ <div class="topline">
+ <em><i><img src="./images/fangzi.png"></i>京东首页</em>
+ </div>
+  
+ </body>
+</html>
